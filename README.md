@@ -48,3 +48,29 @@ Use this type of NoSQL:
 Graph
 
 ###6 Working with health data
+Data:
+variety of types:
+- file data
+- binary data
+- metadata  
+%GB, data growth is huge, cannot store in public cloud  
+
+Justification:
+- queries must be verified  
+- complex data
+- predicable volume of data
+- small volume and velocity
+- big variety  
+
+Use this type of NoSQL:  
+RDBMS(transactions)
+
+##7. Important Tips
+###1 Database selection tips for startups
+
+###2 Considering how data will be input (ingested)
+Sometimes NoSQL is not the right choice because it doesn't scale large enough. Use Hadoop because of the data volumes. So, again, considering the Vs, the volume, velocity, variety, and voracity is key to deciding whether and which NoSQL database to use.
+
+###3 Considering how data will be output (queried)
+The cost of Schema on read:
+- The most important V: veracity  

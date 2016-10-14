@@ -2,6 +2,9 @@
 ##1. Why change?
 ###1 The changing landscape of data
 
+###4 What is a NoSQL database
+In order to work with non-relationable and highly scalable data they do give up some of the characteristics that are found in relational databases. Most notably, transactional consistency of the data. So the data, because it's scaled can be in an inconsistent state.
+
 ##6. Case Studies and Scenarios
 ###1 Applying NoSQL choices via business scenarios
 velocity - how frequently this is produced
